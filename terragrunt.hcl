@@ -1,6 +1,6 @@
 #main terragrunt file
 generate "backend" {
-  path      = "harness/backend.tf"
+  path      = "backend.tf"
   if_exists = "overwrite_terragrunt"
   contents = <<EOF
 terraform {
