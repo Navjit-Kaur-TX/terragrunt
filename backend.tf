@@ -6,11 +6,11 @@ secret_key = ${{ secrets.SECRET }}
 terraform {
     backend "remote" {
         hostname = "gurpreet1.jfrog.io"
-        organization = "tfstate"
+        organization = "tf2"
         token = ${{ secrets.TOKEN }}
         workspaces {
-          name = "dev"
-            # prefix = "my-prefix-"
+          # name = "dev"
+          prefix = "my-prefix-"
         }
     }
 }
