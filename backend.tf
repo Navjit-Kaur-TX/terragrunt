@@ -7,5 +7,5 @@ hostname = "gurpreet1.jfrog.io"
 organization = "tf2"
 token = ${{ secrets.TOKEN }}
 workspaces {
-  prefix = "my-prefix-"
+  prefix = "my-prefix-dev"
 }
